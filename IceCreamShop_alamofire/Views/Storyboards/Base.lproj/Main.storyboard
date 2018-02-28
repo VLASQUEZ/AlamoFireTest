@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U6d-LY-LnJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Elije un sabor-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IceCreamShop_alamofire" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="sPe-be-T2h">
+                                <rect key="frame" x="0.0" y="64" width="375" height="800"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="81x-cp-HmZ" userLabel="Content View">
+                                <rect key="frame" x="0.0" y="64" width="375" height="133"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQU-Dn-D9A" userLabel="Ice Cream View">
+                                        <rect key="frame" x="67" y="-36" width="240" height="128"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="YQU-Dn-D9A" secondAttribute="height" multiplier="1:2" id="wga-mB-z12"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgU-lC-FDb">
+                                        <rect key="frame" x="166.5" y="86" width="42" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="WvN-N3-kbj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YQU-Dn-D9A" firstAttribute="centerX" secondItem="81x-cp-HmZ" secondAttribute="centerX" constant="3.5" id="Rio-kE-Q79"/>
+                                    <constraint firstAttribute="bottom" secondItem="CgU-lC-FDb" secondAttribute="bottom" constant="20" id="Wg6-i9-I49"/>
+                                    <constraint firstItem="CgU-lC-FDb" firstAttribute="centerX" secondItem="81x-cp-HmZ" secondAttribute="centerX" id="fGC-cB-UQF"/>
+                                    <constraint firstItem="YQU-Dn-D9A" firstAttribute="top" secondItem="81x-cp-HmZ" secondAttribute="top" constant="40" id="lZA-a4-mo9"/>
+                                    <constraint firstItem="CgU-lC-FDb" firstAttribute="top" secondItem="YQU-Dn-D9A" secondAttribute="top" constant="46" id="yof-RX-WQ6"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CQl-Fx-V8h">
+                                <rect key="frame" x="0.0" y="197" width="375" height="667"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Nlw-1m-zii">
+                                    <size key="itemSize" width="70" height="70"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="5" maxX="0.0" maxY="5"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ScoopCell" id="pVT-Wf-x00" userLabel="ScoopCell" customClass="ScoopCell" customModule="IceCreamShop_alamofire" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="5" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HCa-HE-KXI">
+                                                    <rect key="frame" x="0.0" y="49" width="70" height="21"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="SOh-Hs-ngS"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAT-T8-DPX" userLabel="ScoopView" customClass="ScoopView" customModule="IceCreamShop_alamofire" customModuleProvider="target">
+                                                    <rect key="frame" x="15" y="9" width="40" height="40"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Strawberry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="D9z-Vx-690">
+                                                            <rect key="frame" x="-15" y="28" width="70" height="12"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="LgL-xA-QBY"/>
+                                                        <constraint firstAttribute="height" constant="40" id="jT5-uU-Vu9"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="HCa-HE-KXI" firstAttribute="leading" secondItem="pVT-Wf-x00" secondAttribute="leading" id="NBi-8D-wnB"/>
+                                            <constraint firstItem="aAT-T8-DPX" firstAttribute="top" secondItem="pVT-Wf-x00" secondAttribute="top" constant="9" id="cwh-8D-Ioe"/>
+                                            <constraint firstItem="HCa-HE-KXI" firstAttribute="top" secondItem="pVT-Wf-x00" secondAttribute="top" constant="49" id="eAQ-ZL-1uD"/>
+                                            <constraint firstAttribute="trailing" secondItem="HCa-HE-KXI" secondAttribute="trailing" id="fw0-Tk-nU9"/>
+                                            <constraint firstItem="aAT-T8-DPX" firstAttribute="centerX" secondItem="pVT-Wf-x00" secondAttribute="centerX" id="n0K-5q-wZm"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="scoopView" destination="aAT-T8-DPX" id="uAh-ex-pEq"/>
+                                            <outlet property="textLabel" destination="D9z-Vx-690" id="0hT-P9-0dc"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sPe-be-T2h" secondAttribute="bottom" id="4ou-5D-CDU"/>
+                            <constraint firstItem="sPe-be-T2h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bhc-IF-sRJ"/>
+                            <constraint firstItem="CQl-Fx-V8h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cpf-nl-3B0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="81x-cp-HmZ" secondAttribute="trailing" id="EEQ-Lm-wSk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sPe-be-T2h" secondAttribute="trailing" id="NiF-6H-Hi8"/>
+                            <constraint firstItem="CQl-Fx-V8h" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="QBG-US-8a8"/>
+                            <constraint firstItem="sPe-be-T2h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YFW-Vf-c0L"/>
+                            <constraint firstItem="81x-cp-HmZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="d7w-Lm-Aeb"/>
+                            <constraint firstItem="81x-cp-HmZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jQG-gF-cSM"/>
+                            <constraint firstItem="CQl-Fx-V8h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="js2-Sk-hGU"/>
+                            <constraint firstItem="CQl-Fx-V8h" firstAttribute="top" secondItem="81x-cp-HmZ" secondAttribute="bottom" id="keR-3z-7E9"/>
+                            <constraint firstItem="81x-cp-HmZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vRq-Z3-esb"/>
+                            <constraint firstItem="81x-cp-HmZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="w2h-Ft-RQA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Elije un sabor" id="P6r-bu-gIP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="117.39130434782609"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="am9-4f-1Md">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U6d-LY-LnJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lFF-g0-0QT">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="I9u-I9-Wt6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S0f-ss-Nyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-246" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="800" height="800"/>
+    </resources>
+</document>

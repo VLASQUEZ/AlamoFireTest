@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6E28DFF7549EE0F47D6BDE /* Pods_IceCreamShop_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC23FE4BAE0E2A76836D1B6 /* Pods_IceCreamShop_alamofire.framework */; };
+		60495C1E20463B1100C48094 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60495C1D20463B1100C48094 /* IceCreamView.swift */; };
+		60495C2120463C8600C48094 /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60495C2020463C8600C48094 /* FlavorFactory.swift */; };
 		60ECCEFF2045D246003C57B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ECCEFE2045D246003C57B7 /* AppDelegate.swift */; };
 		60ECCF012045D246003C57B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ECCF002045D246003C57B7 /* ViewController.swift */; };
 		60ECCF042045D246003C57B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60ECCF022045D246003C57B7 /* Main.storyboard */; };
-		60ECCF062045D246003C57B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60ECCF052045D246003C57B7 /* Assets.xcassets */; };
 		60ECCF092045D246003C57B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60ECCF072045D246003C57B7 /* LaunchScreen.storyboard */; };
+		60ECCF122045D3DE003C57B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60ECCF112045D3DE003C57B7 /* Images.xcassets */; };
+		60ECCF182045DCF5003C57B7 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ECCF172045DCF5003C57B7 /* ScoopView.swift */; };
+		60ECCF1B2045DD47003C57B7 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ECCF1A2045DD47003C57B7 /* Flavor.swift */; };
+		60ECCF1E2045E009003C57B7 /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ECCF1D2045E009003C57B7 /* UIColor+RGBA.swift */; };
+		60ECCF202045E2A1003C57B7 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ECCF1F2045E2A1003C57B7 /* ScoopCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A0B72B6F7B8CBADD87A4F66 /* Pods-IceCreamShop_alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop_alamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop_alamofire/Pods-IceCreamShop_alamofire.release.xcconfig"; sourceTree = "<group>"; };
+		5AC23FE4BAE0E2A76836D1B6 /* Pods_IceCreamShop_alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IceCreamShop_alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60495C1D20463B1100C48094 /* IceCreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		60495C2020463C8600C48094 /* FlavorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
 		60ECCEFB2045D246003C57B7 /* IceCreamShop_alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCreamShop_alamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ECCEFE2045D246003C57B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60ECCF002045D246003C57B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60ECCF032045D246003C57B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60ECCF052045D246003C57B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60ECCF082045D246003C57B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60ECCF0A2045D246003C57B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60ECCF112045D3DE003C57B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60ECCF172045DCF5003C57B7 /* ScoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		60ECCF1A2045DD47003C57B7 /* Flavor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		60ECCF1D2045E009003C57B7 /* UIColor+RGBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
+		60ECCF1F2045E2A1003C57B7 /* ScoopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		9FBBB0D01DBFF2356BA68D47 /* Pods-IceCreamShop_alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop_alamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop_alamofire/Pods-IceCreamShop_alamofire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6E28DFF7549EE0F47D6BDE /* Pods_IceCreamShop_alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C473F53901C3C85FB2EB496 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FBBB0D01DBFF2356BA68D47 /* Pods-IceCreamShop_alamofire.debug.xcconfig */,
+				4A0B72B6F7B8CBADD87A4F66 /* Pods-IceCreamShop_alamofire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44086B45DA97C6214FB50BCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AC23FE4BAE0E2A76836D1B6 /* Pods_IceCreamShop_alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60495C1F20463C6400C48094 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				60495C2020463C8600C48094 /* FlavorFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		60495C2220463E4300C48094 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCF002045D246003C57B7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		60ECCEF22045D246003C57B7 = {
 			isa = PBXGroup;
 			children = (
 				60ECCEFD2045D246003C57B7 /* IceCreamShop_alamofire */,
 				60ECCEFC2045D246003C57B7 /* Products */,
+				0C473F53901C3C85FB2EB496 /* Pods */,
+				44086B45DA97C6214FB50BCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,76 @@
 		60ECCEFD2045D246003C57B7 /* IceCreamShop_alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				60ECCEFE2045D246003C57B7 /* AppDelegate.swift */,
-				60ECCF002045D246003C57B7 /* ViewController.swift */,
-				60ECCF022045D246003C57B7 /* Main.storyboard */,
-				60ECCF052045D246003C57B7 /* Assets.xcassets */,
-				60ECCF072045D246003C57B7 /* LaunchScreen.storyboard */,
+				60495C2220463E4300C48094 /* Controllers */,
+				60495C1F20463C6400C48094 /* Factories */,
+				60ECCF1C2045DFDE003C57B7 /* Extensions */,
+				60ECCF192045DD3B003C57B7 /* Models */,
+				60ECCF142045D499003C57B7 /* Views */,
+				60ECCF132045D40E003C57B7 /* Resources */,
+				60ECCF102045D399003C57B7 /* AppDelegate */,
 				60ECCF0A2045D246003C57B7 /* Info.plist */,
 			);
 			path = IceCreamShop_alamofire;
+			sourceTree = "<group>";
+		};
+		60ECCF102045D399003C57B7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCEFE2045D246003C57B7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		60ECCF132045D40E003C57B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCF112045D3DE003C57B7 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60ECCF142045D499003C57B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCF162045DCDB003C57B7 /* Ice Cream */,
+				60ECCF152045D4A0003C57B7 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60ECCF152045D4A0003C57B7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCF022045D246003C57B7 /* Main.storyboard */,
+				60ECCF072045D246003C57B7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		60ECCF162045DCDB003C57B7 /* Ice Cream */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCF172045DCF5003C57B7 /* ScoopView.swift */,
+				60ECCF1F2045E2A1003C57B7 /* ScoopCell.swift */,
+				60495C1D20463B1100C48094 /* IceCreamView.swift */,
+			);
+			path = "Ice Cream";
+			sourceTree = "<group>";
+		};
+		60ECCF192045DD3B003C57B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCF1A2045DD47003C57B7 /* Flavor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60ECCF1C2045DFDE003C57B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60ECCF1D2045E009003C57B7 /* UIColor+RGBA.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60ECCF0D2045D246003C57B7 /* Build configuration list for PBXNativeTarget "IceCreamShop_alamofire" */;
 			buildPhases = (
+				24CDD912CE0E7DE653AFA49A /* [CP] Check Pods Manifest.lock */,
 				60ECCEF72045D246003C57B7 /* Sources */,
 				60ECCEF82045D246003C57B7 /* Frameworks */,
 				60ECCEF92045D246003C57B7 /* Resources */,
+				3A96ED5CE0A0D6C83085B72F /* [CP] Embed Pods Frameworks */,
+				CB64957FB816846D35ABD76D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +241,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				60ECCF092045D246003C57B7 /* LaunchScreen.storyboard in Resources */,
-				60ECCF062045D246003C57B7 /* Assets.xcassets in Resources */,
+				60ECCF122045D3DE003C57B7 /* Images.xcassets in Resources */,
 				60ECCF042045D246003C57B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24CDD912CE0E7DE653AFA49A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IceCreamShop_alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A96ED5CE0A0D6C83085B72F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IceCreamShop_alamofire/Pods-IceCreamShop_alamofire-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IceCreamShop_alamofire/Pods-IceCreamShop_alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB64957FB816846D35ABD76D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IceCreamShop_alamofire/Pods-IceCreamShop_alamofire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60ECCEF72045D246003C57B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60495C2120463C8600C48094 /* FlavorFactory.swift in Sources */,
 				60ECCF012045D246003C57B7 /* ViewController.swift in Sources */,
+				60ECCF202045E2A1003C57B7 /* ScoopCell.swift in Sources */,
+				60ECCF1B2045DD47003C57B7 /* Flavor.swift in Sources */,
+				60495C1E20463B1100C48094 /* IceCreamView.swift in Sources */,
+				60ECCF1E2045E009003C57B7 /* UIColor+RGBA.swift in Sources */,
 				60ECCEFF2045D246003C57B7 /* AppDelegate.swift in Sources */,
+				60ECCF182045DCF5003C57B7 /* ScoopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +451,7 @@
 		};
 		60ECCF0E2045D246003C57B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBBB0D01DBFF2356BA68D47 /* Pods-IceCreamShop_alamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +467,7 @@
 		};
 		60ECCF0F2045D246003C57B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0B72B6F7B8CBADD87A4F66 /* Pods-IceCreamShop_alamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
